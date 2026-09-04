@@ -1,16 +1,16 @@
 {
   "phone_1": "+212 528-819-821",
   "phone_2": "+212 666-527-684",
-  "hours_ar": "من الإثنين إلى السبت: 9:00 صباحاً - 18:00 مساءً",
-  "youtube": "",
-  "facebook": "https://web.facebook.com/profile.php?id=61562952463648",
-  "address_de": "Imm. Abou Salim, Av. Hassa 2, Biougra, Agadir, Marokko",
-  "hours_de": "Montag bis Samstag: 9:00 - 18:00 Uhr",
-  "instagram": "",
   "whatsapp_digits": "212666527684",
-  "map_embed": "https://maps.app.goo.gl/XoRT6sH3z2SJ74iR6",
-  "address_fr": "Imm. Abou Salim, Av. Hassa 2, Biougra, Agadir, Maroc",
-  "address_ar": "عمارة أبو سالم، شارع حسا 2، بيوكرى، أكادير، المغرب",
   "email": "Contact.rhazesbiougra@gmail.com",
-  "hours_fr": "Du lundi au samedi : 9h00 - 18h00"
+  "address_ar": "عمارة أبو سالم، شارع حسا 2، بيوكرى، أكادير، المغرب",
+  "address_fr": "Imm. Abou Salim, Av. Hassa 2, Biougra, Agadir, Maroc",
+  "address_de": "Imm. Abou Salim, Av. Hassa 2, Biougra, Agadir, Marokko",
+  "hours_ar": "من الإثنين إلى السبت: 9:00 صباحاً - 18:00 مساءً",
+  "hours_fr": "Du lundi au samedi : 9h00 - 18h00",
+  "hours_de": "Montag bis Samstag: 9:00 - 18:00 Uhr",
+  "facebook": "https://web.facebook.com/profile.php?id=61562952463648",
+  "instagram": "",
+  "youtube": "",
+  "map_embed": ""
 }
