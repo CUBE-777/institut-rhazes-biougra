@@ -1,0 +1,89 @@
+backend:
+  name: git-gateway
+  branch: main
+
+# رفع الصور يتم داخل هذا المجلد تلقائياً
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
+
+locale: "ar"
+
+collections:
+  # ------------------------------------------------------------
+  # 1) الإعدادات العامة: الهاتف، العنوان، أوقات العمل، السوشيال ميديا
+  # ------------------------------------------------------------
+  - name: "settings"
+    label: "⚙️ الإعدادات العامة"
+    files:
+      - name: "general"
+        label: "معلومات التواصل"
+        file: "content/data/settings.json"
+        fields:
+          - { label: "الهاتف الأول", name: "phone_1", widget: "string" }
+          - { label: "الهاتف الثاني", name: "phone_2", widget: "string" }
+          - { label: "رقم واتساب (أرقام فقط بدون + أو مسافات، مثال 212666527684)", name: "whatsapp_digits", widget: "string" }
+          - { label: "البريد الإلكتروني", name: "email", widget: "string" }
+          - { label: "العنوان (بالعربية)", name: "address_ar", widget: "string" }
+          - { label: "Adresse (Français)", name: "address_fr", widget: "string" }
+          - { label: "Adresse (Deutsch)", name: "address_de", widget: "string" }
+          - { label: "أوقات العمل (بالعربية)", name: "hours_ar", widget: "string" }
+          - { label: "Horaires (Français)", name: "hours_fr", widget: "string" }
+          - { label: "Arbeitszeiten (Deutsch)", name: "hours_de", widget: "string" }
+          - { label: "رابط فيسبوك", name: "facebook", widget: "string", required: false }
+          - { label: "رابط انستغرام", name: "instagram", widget: "string", required: false }
+          - { label: "رابط يوتيوب", name: "youtube", widget: "string", required: false }
+          - { label: "رابط خريطة Google Maps (Embed)", name: "map_embed", widget: "text", required: false }
+
+  # ------------------------------------------------------------
+  # 2) الإعلانات والأخبار (تظهر في قسم "آخر المستجدات" وفي الشريط العلوي إن كانت عاجلة)
+  # ------------------------------------------------------------
+  - name: "announcements"
+    label: "📢 الإعلانات والأخبار"
+    files:
+      - name: "list"
+        label: "قائمة الإعلانات"
+        file: "content/data/announcements.json"
+        fields:
+          - name: "items"
+            label: "الإعلانات"
+            widget: "list"
+            summary: "{{fields.title_ar}}"
+            fields:
+              - { label: "إعلان عاجل؟ (يظهر في الشريط العلوي)", name: "urgent", widget: "boolean", default: false }
+              - { label: "التاريخ", name: "date", widget: "datetime", format: "YYYY-MM-DD" }
+              - { label: "العنوان (بالعربية)", name: "title_ar", widget: "string" }
+              - { label: "Titre (Français)", name: "title_fr", widget: "string" }
+              - { label: "Titel (Deutsch)", name: "title_de", widget: "string" }
+              - { label: "النص (بالعربية)", name: "text_ar", widget: "text" }
+              - { label: "Texte (Français)", name: "text_fr", widget: "text" }
+              - { label: "Text (Deutsch)", name: "text_de", widget: "text" }
+              - { label: "صورة (اختياري)", name: "image", widget: "image", required: false }
+
+  # ------------------------------------------------------------
+  # 3) الشعب والتخصصات
+  # ------------------------------------------------------------
+  - name: "formations"
+    label: "🎓 الشعب والتخصصات"
+    files:
+      - name: "list"
+        label: "قائمة الشعب"
+        file: "content/data/formations.json"
+        fields:
+          - name: "items"
+            label: "الشعب"
+            widget: "list"
+            summary: "{{fields.name_ar}}"
+            fields:
+              - { label: "رمز/أيقونة (حرف أو إيموجي)", name: "icon", widget: "string", required: false }
+              - { label: "اسم الشعبة (بالعربية)", name: "name_ar", widget: "string" }
+              - { label: "Nom de la filière (Français)", name: "name_fr", widget: "string" }
+              - { label: "Name des Studiengangs (Deutsch)", name: "name_de", widget: "string" }
+              - { label: "شرط الولوج (بالعربية)", name: "requirement_ar", widget: "string" }
+              - { label: "Condition d'accès (Français)", name: "requirement_fr", widget: "string" }
+              - { label: "Zugangsvoraussetzung (Deutsch)", name: "requirement_de", widget: "string" }
+              - { label: "مدة التكوين (بالعربية)", name: "duration_ar", widget: "string" }
+              - { label: "Durée (Français)", name: "duration_fr", widget: "string" }
+              - { label: "Dauer (Deutsch)", name: "duration_de", widget: "string" }
+              - { label: "الوصف (بالعربية)", name: "desc_ar", widget: "text" }
+              - { label: "Description (Français)", name: "desc_fr", widget: "text" }
+              - { label: "Beschreibung (Deutsch)", name: "desc_de", widget: "text" }

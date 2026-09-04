@@ -1,0 +1,49 @@
+{
+  "items": [
+    {
+      "icon": "🩺",
+      "name_ar": "ممرض(ة) متعدد التخصصات",
+      "name_fr": "Infirmier(ère) Polyvalent(e)",
+      "name_de": "Mehrzweck-Krankenpfleger/in",
+      "requirement_ar": "الباكالوريا (إعادة توجيه)",
+      "requirement_fr": "Baccalauréat (réorientation)",
+      "requirement_de": "Abitur (Umorientierung)",
+      "duration_ar": "3 سنوات",
+      "duration_fr": "3 ans",
+      "duration_de": "3 Jahre",
+      "desc_ar": "تكوين شامل يؤهلك للعمل في مختلف مصالح التمريض داخل المستشفيات والعيادات، مع إمكانية التخصص لاحقاً في مجال تختاره.",
+      "desc_fr": "Une formation complète qui vous prépare à exercer dans les différents services hospitaliers, avec la possibilité de vous spécialiser par la suite.",
+      "desc_de": "Eine umfassende Ausbildung, die Sie auf die Arbeit in verschiedenen Krankenhausabteilungen vorbereitet, mit der Möglichkeit einer späteren Spezialisierung."
+    },
+    {
+      "icon": "❤",
+      "name_ar": "ممرض(ة) مساعد(ة)",
+      "name_fr": "Aide-Infirmier(ère)",
+      "name_de": "Pflegehelfer/in",
+      "requirement_ar": "شهادة الباكالوريا",
+      "requirement_fr": "Baccalauréat",
+      "requirement_de": "Abitur",
+      "duration_ar": "سنتان",
+      "duration_fr": "2 ans",
+      "duration_de": "2 Jahre",
+      "desc_ar": "برنامج تدريبي شامل يؤهلك للانخراط السريع في سوق الشغل كممرض(ة) مساعد(ة) داخل المؤسسات الصحية العمومية والخاصة.",
+      "desc_fr": "Un programme de formation complet qui vous prépare à intégrer rapidement le marché du travail en tant qu'aide-infirmier(ère).",
+      "desc_de": "Ein umfassendes Ausbildungsprogramm, das Sie auf den schnellen Einstieg in den Arbeitsmarkt als Pflegehelfer/in vorbereitet."
+    },
+    {
+      "icon": "✚",
+      "name_ar": "مساعد(ة) معالج(ة)",
+      "name_fr": "Assistant(e) Thérapeutique",
+      "name_de": "Therapieassistent/in",
+      "requirement_ar": "المستوى الثالث إعدادي",
+      "requirement_fr": "Niveau 3ème (Collège)",
+      "requirement_de": "9. Schuljahr",
+      "duration_ar": "سنة واحدة",
+      "duration_fr": "1 an",
+      "duration_de": "1 Jahr",
+      "desc_ar": "أقصر طريق نحو مهنة صحية حقيقية، يمنحك مهارات عملية للمساعدة في العيادات والمصحات ابتداءً من مستوى الثالثة إعدادي.",
+      "desc_fr": "Le chemin le plus court vers un vrai métier de la santé, dès le niveau collège, avec des compétences pratiques pour assister en clinique.",
+      "desc_de": "Der kürzeste Weg zu einem echten Gesundheitsberuf ab der 9. Klasse, mit praktischen Fähigkeiten für die Assistenz in Kliniken."
+    }
+  ]
+}

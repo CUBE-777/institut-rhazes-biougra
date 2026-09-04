@@ -1,0 +1,37 @@
+{
+  "items": [
+    {
+      "urgent": true,
+      "date": "2026-09-01",
+      "title_ar": "التسجيلات مفتوحة لموسم 2026/2027",
+      "title_fr": "Inscriptions ouvertes pour 2026/2027",
+      "title_de": "Anmeldung für 2026/2027 geöffnet",
+      "text_ar": "بادر بالتسجيل الآن في شعبتك المفضلة، الأماكن محدودة.",
+      "text_fr": "Inscrivez-vous dès maintenant dans la filière de votre choix, places limitées.",
+      "text_de": "Melden Sie sich jetzt für Ihren Wunschstudiengang an, die Plätze sind begrenzt.",
+      "image": ""
+    },
+    {
+      "urgent": false,
+      "date": "2026-08-20",
+      "title_ar": "اللغة الألمانية بالمجان مع معهد الرازي",
+      "title_fr": "Allemand gratuit avec l'Institut Rhazès",
+      "title_de": "Kostenloses Deutsch mit dem Institut Rhazès",
+      "text_ar": "استفد من تكوين مجاني في اللغة الألمانية لتحسين فرصك في العمل بألمانيا.",
+      "text_fr": "Profitez d'une formation gratuite en allemand pour améliorer vos chances de travailler en Allemagne.",
+      "text_de": "Nutzen Sie eine kostenlose Deutschausbildung, um Ihre Chancen auf eine Arbeit in Deutschland zu verbessern.",
+      "image": ""
+    },
+    {
+      "urgent": false,
+      "date": "2026-08-05",
+      "title_ar": "مسارك المهني يبدأ هنا",
+      "title_fr": "Votre parcours commence ici",
+      "title_de": "Ihr Weg beginnt hier",
+      "text_ar": "تكوين مهني يجمع بين المعرفة النظرية والتطبيق العملي داخل مؤسسات صحية شريكة.",
+      "text_fr": "Une formation professionnelle alliant connaissances théoriques et pratique au sein d'établissements de santé partenaires.",
+      "text_de": "Eine Berufsausbildung, die theoretisches Wissen mit praktischer Anwendung in Partner-Gesundheitseinrichtungen verbindet.",
+      "image": ""
+    }
+  ]
+}
